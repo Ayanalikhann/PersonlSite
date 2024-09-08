@@ -1,0 +1,55 @@
+
+.titlee{
+    background-color: #6C48C5;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+.name{
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70vh;
+    align-items: center;
+}
+#stars{
+    position: absolute;
+}
+h1{
+    position: absolute;
+}
+.title-frame{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    height: 90vh;
+    width: 80vh;
+    align-items: center;
+}
+#frame{
+    position: absolute;
+}
+
+@media (max-width:400px){
+    .container{
+        padding-bottom: 50px;
+    }
+    #frame{
+        height: 260px;
+    }
+    .ayan{
+        height: 230px;
+    }
+    .title-frame{
+        height: 50vh;
+    }
+    .name{
+        height: 30vh;
+    }
+}
